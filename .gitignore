@@ -1,0 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# frontend dependencies
+/studentfrontend/node_modules/
+/studentfrontend/.pnp
+/studentfrontend.pnp.js
+
+# testing
+/studentfrontend/coverage/
+
+# production
+/studentfrontend/build/
+
+# misc
+/studentfrontend/.DS_Store
+/studentfrontend/.env.local
+/studentfrontend/.env.development.local
+/studentfrontend/.env.test.local
+/studentfrontend/.env.production.local
+
+/studentfrontend/npm-debug.log*
+/studentfrontend/yarn-debug.log*
+/studentfrontend/yarn-error.log*
+
+# backend dependencies
+target/
+/studentsystembackend/.env*
+
+.idea/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/package-lock.json

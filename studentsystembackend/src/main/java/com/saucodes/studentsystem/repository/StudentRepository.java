@@ -1,0 +1,10 @@
+package com.saucodes.studentsystem.repository;
+
+import com.saucodes.studentsystem.model.Student;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface StudentRepository extends JpaRepository<Student,Integer> {
+
+}
