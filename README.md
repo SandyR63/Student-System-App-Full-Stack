@@ -37,6 +37,8 @@ A full-stack student system application with a React frontend, Spring Boot backe
 
 3. Configure database credentials in the application.properties file:
     spring.datasource.url=jdbc:mysql://localhost:3306/database_name
+   
     spring.datasource.username=username
+   
     spring.datasource.password=password
 
